@@ -1,0 +1,285 @@
+{
+  "id": "table_management_crud_agg_1",
+  "pluginKey": "@official-plugins/feishu-bitable",
+  "pluginVersion": "1.0.21",
+  "name": "飞书多维表格",
+  "description": "管理飞书多维表格，支持数据的创建、查询、更新、删除、聚合分析",
+  "icon": "https://lf3-static.bytednsdoc.com/obj/eden-cn/fzgeh7nuhfboznulog/bitable.svg",
+  "paramsSchema": {},
+  "formValue": {
+    "tableID": "tblEVKXm1tO4JogM",
+    "appToken": "J5b8bm8JTa5MFIsZHUhc8gEYnWd",
+    "fields": [
+      {
+        "id": "fld5sgzjDT",
+        "name": "订单号",
+        "type": 1,
+        "bizType": "Text",
+        "readable": true,
+        "writeable": false
+      },
+      {
+        "type": 3,
+        "bizType": "SingleSelect",
+        "enumValues": [
+          "",
+          "92美国",
+          "Link",
+          "88美国",
+          "leffa",
+          "大德",
+          "92美国-VB"
+        ],
+        "id": "fld5pOYV6O",
+        "name": "店铺",
+        "readable": true,
+        "writeable": false
+      },
+      {
+        "type": 5,
+        "bizType": "DateTime",
+        "id": "fld6VRjtw6",
+        "name": "采购日期",
+        "readable": true,
+        "writeable": false
+      },
+      {
+        "id": "fld1462n2G",
+        "name": "收件人",
+        "type": 1,
+        "readable": true,
+        "writeable": false,
+        "bizType": "Text"
+      },
+      {
+        "id": "fld7gIGtoq",
+        "name": "名字",
+        "type": 1,
+        "bizType": "Text",
+        "readable": true,
+        "writeable": false
+      },
+      {
+        "readable": true,
+        "writeable": false,
+        "id": "fldeA4ynR5",
+        "name": "预览图",
+        "type": 17,
+        "bizType": "Attachment"
+      },
+      {
+        "bizType": "Text",
+        "id": "fld3prg1rY",
+        "name": "号码",
+        "type": 1,
+        "readable": true,
+        "writeable": false
+      },
+      {
+        "bizType": "Text",
+        "id": "fldyJd4yhv",
+        "name": "队名/赞助商",
+        "readable": true,
+        "writeable": false,
+        "type": 1
+      },
+      {
+        "id": "fld35aSFLa",
+        "name": "logo款式",
+        "type": 17,
+        "bizType": "Attachment",
+        "readable": true,
+        "writeable": false
+      },
+      {
+        "bizType": "Text",
+        "readable": true,
+        "writeable": false,
+        "id": "fld3OuGUH4",
+        "name": "尺码",
+        "type": 1
+      },
+      {
+        "name": "袜子",
+        "type": 1,
+        "bizType": "Text",
+        "id": "fld6LcSdxi",
+        "readable": true,
+        "writeable": false
+      },
+      {
+        "writeable": false,
+        "id": "fldpQi3Rct",
+        "name": "护腿板",
+        "type": 1,
+        "bizType": "Text",
+        "readable": true
+      },
+      {
+        "id": "fldEquKeUn",
+        "name": "购买数量",
+        "type": 2,
+        "bizType": "Number",
+        "readable": true,
+        "writeable": false
+      },
+      {
+        "type": 1,
+        "bizType": "Text",
+        "readable": true,
+        "writeable": false,
+        "id": "fld3QBEl9P",
+        "name": "备注"
+      },
+      {
+        "bizType": "SingleSelect",
+        "readable": true,
+        "writeable": false,
+        "enumValues": [
+          "US",
+          "CA",
+          "UK",
+          "FR",
+          "DE",
+          "IT",
+          "ES",
+          "MX",
+          "GB"
+        ],
+        "id": "fldqyrrVy4",
+        "name": "国家",
+        "type": 3
+      },
+      {
+        "readable": false,
+        "writeable": false,
+        "id": "fldLplhxmy",
+        "name": "父记录",
+        "type": 18,
+        "bizType": "SingleLink"
+      },
+      {
+        "enumValues": [
+          "DHL",
+          "云途",
+          "递四方",
+          "顺友"
+        ],
+        "id": "fldmUHHB5v",
+        "name": "配送服务",
+        "type": 3,
+        "readable": true,
+        "writeable": false,
+        "bizType": "SingleSelect"
+      },
+      {
+        "readable": true,
+        "writeable": false,
+        "bizType": "SingleSelect",
+        "enumValues": [
+          "新版球衣",
+          "普通球衣",
+          "多商品订单",
+          "足球衣",
+          "守门员",
+          "篮球衣",
+          "热升华"
+        ],
+        "id": "fldCwq9bCL",
+        "name": "商品类型",
+        "type": 3
+      },
+      {
+        "id": "fldWb4smHS",
+        "name": "SKU",
+        "type": 1,
+        "readable": true,
+        "writeable": false,
+        "bizType": "Text"
+      },
+      {
+        "type": 1,
+        "bizType": "Text",
+        "id": "fld3T4cToL",
+        "name": "LOGO详细位置",
+        "readable": true,
+        "writeable": false
+      },
+      {
+        "type": 1,
+        "bizType": "Text",
+        "id": "fldkQh4aIe",
+        "readable": true,
+        "writeable": false,
+        "name": "打包备注"
+      },
+      {
+        "bizType": "Text",
+        "readable": true,
+        "writeable": false,
+        "id": "fldruexAPV",
+        "name": "裤子",
+        "type": 1
+      },
+      {
+        "name": "填单时间",
+        "type": 5,
+        "bizType": "DateTime",
+        "readable": true,
+        "writeable": false,
+        "id": "fldr5ITg4L"
+      },
+      {
+        "name": "Logo(左胸)",
+        "type": 17,
+        "bizType": "Attachment",
+        "readable": true,
+        "writeable": false,
+        "id": "fldIHzNhrc"
+      },
+      {
+        "readable": true,
+        "writeable": false,
+        "id": "fldS58vJY6",
+        "name": "Logo(背后名字上方)",
+        "type": 17,
+        "bizType": "Attachment"
+      },
+      {
+        "name": "Logo(短裤)",
+        "type": 17,
+        "bizType": "Attachment",
+        "readable": true,
+        "writeable": false,
+        "id": "fldpgNDv14"
+      },
+      {
+        "writeable": false,
+        "type": 20,
+        "bizType": "Formula",
+        "id": "fldYmLgNs6",
+        "name": "同一单",
+        "readable": true
+      },
+      {
+        "bizType": "User",
+        "readable": true,
+        "writeable": false,
+        "id": "fldDFe22AZ",
+        "name": "填写人",
+        "type": 11
+      },
+      {
+        "id": "fld7KYK6AL",
+        "name": "重复填写",
+        "type": 20,
+        "bizType": "Formula",
+        "readable": true,
+        "writeable": false
+      }
+    ]
+  },
+  "createdAt": 1777091153634,
+  "updatedAt": 1777091289228,
+  "createdBy": 7621013653483048158
+}
